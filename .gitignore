@@ -1,3 +1,28 @@
+
+# Filetypes to ignore
+*.db
+*.ldb
+*.tdb
+*.store
+*.log
+*.pack
+
+# File to ignore
+*Cache*
+*cache*
+*sqlite*
+**/database/**
+
+# libreoffice
+libreoffice/**
+
+# Code
+Code/CachedData/**
+*.vscdb*
+
+# google-chrome is bad citizen of .config
+google-chrome/**
+
 # begin section managed by etckeeper (do not edit this section by hand)
 
 # new and old versions of conffiles, stored by dpkg
