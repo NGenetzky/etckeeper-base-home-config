@@ -13,11 +13,19 @@
 *sqlite*
 **/database/**
 
+# Other programs
+ibus/bus/*
+balena-etcher-electron/**
+!balena-etcher-electron/.updaterId
+
 # libreoffice
 libreoffice/**
 
 # Code
 Code/CachedData/**
+Code/Cookies
+Code/Network Persistent State
+Code/rapid_render.json
 *.vscdb*
 
 # google-chrome is bad citizen of .config
