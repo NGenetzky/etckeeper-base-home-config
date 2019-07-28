@@ -18,6 +18,11 @@ ibus/bus/*
 balena-etcher-electron/**
 !balena-etcher-electron/.updaterId
 
+# Keybase
+Keybase/SingletonCookie
+Keybase/SingletonLock
+Keybase/SS
+
 # libreoffice
 libreoffice/**
 
@@ -85,3 +90,4 @@ check_mk/logwatch.state
 DEADJOE
 
 # end section managed by etckeeper
+dconf/user
