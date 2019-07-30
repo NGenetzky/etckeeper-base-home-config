@@ -6,17 +6,26 @@
 *.store
 *.log
 *.pack
+*.png
 
 # File to ignore
 *Cache*
 *cache*
 *sqlite*
 **/database/**
+blob_storage
+GPUCache
+SingletonCookie
+SingletonLock
+SS
+log.txt
+log-database.txt
 
 # Other programs
 ibus/bus/*
 balena-etcher-electron/**
 !balena-etcher-electron/.updaterId
+dconf/user
 
 # Keybase
 Keybase/SingletonCookie
@@ -32,6 +41,7 @@ Code/Cookies
 Code/Network Persistent State
 Code/rapid_render.json
 *.vscdb*
+*VC.db*
 
 # google-chrome is bad citizen of .config
 google-chrome/**
@@ -93,4 +103,3 @@ check_mk/logwatch.state
 DEADJOE
 
 # end section managed by etckeeper
-dconf/user
