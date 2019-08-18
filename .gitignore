@@ -36,6 +36,9 @@ Code/rapid_render.json
 # google-chrome is bad citizen of .config
 google-chrome/**
 
+# joplin
+joplin-desktop/resources/*
+
 # begin section managed by etckeeper (do not edit this section by hand)
 
 # new and old versions of conffiles, stored by dpkg
