@@ -1,3 +1,5 @@
+# Ignore everything (useful to avoid etckeeper)
+*
 
 # Filetypes to ignore
 *.db
@@ -7,6 +9,7 @@
 *.log
 *.pack
 *.png
+*.log.*
 
 # File to ignore
 *Cache*
