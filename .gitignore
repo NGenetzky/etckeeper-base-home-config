@@ -10,6 +10,7 @@
 *.pack
 *.png
 *.log.*
+LOG
 
 # File to ignore
 *Cache*
@@ -24,6 +25,10 @@ SS
 log.txt
 log-database.txt
 
+# Dir to ignore
+**/leveldb/**
+**/Database/**
+
 # Other programs
 ibus/bus/*
 balena-etcher-electron/**
@@ -31,9 +36,12 @@ balena-etcher-electron/**
 dconf/user
 
 # Keybase
+Keybase/LOCK
+Keybase/LOG
+Keybase/MANIFEST-*
+Keybase/SS
 Keybase/SingletonCookie
 Keybase/SingletonLock
-Keybase/SS
 
 # libreoffice
 libreoffice/**
@@ -51,6 +59,18 @@ google-chrome/**
 
 # joplin
 joplin-desktop/resources/*
+
+# Zenkit
+!Zenkit/Preferences
+Zenkit/Cookies
+Zenkit/Cookies-journal
+Zenkit/QuotaManager
+Zenkit/QuotaManager-journal
+Zenkit/databases/Databases.db-journal
+
+# GIMP
+# Ignore all for now.
+GIMP/**
 
 # begin section managed by etckeeper (do not edit this section by hand)
 
